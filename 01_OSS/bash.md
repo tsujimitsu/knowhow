@@ -306,3 +306,13 @@
 1. CTRL+a: 行頭へカーソル移動
 1. CTRL+e: 行末へカーソル移動
 1. CTRL+w: 直前の単語を削除、CTRL+y: 削除した単語を貼付
+
+
+## jobコマンド（at）
+> http://discypus.jp/wiki/?Linux%2Fat%A5%B3%A5%DE%A5%F3%A5%C9
+
+    # atq
+    （キューのジョブを表示）
+    # at -f test.sh now + 5minute
+    # at -f test.sh 03:50
+    # echo "1" | at now + 2minute
