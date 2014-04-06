@@ -48,6 +48,9 @@
 
 
 ## tar
+    ・http://diaryruru.blog.fc2.com/blog-entry-32.html
+    ・http://assimane.blog.so-net.ne.jp/2011-01-15
+
     # getconf ARG_MAX
     2621440
 
@@ -58,3 +61,21 @@
     # tar zxvf etc.tar.gz
 
 
+## ディレクトリtree表示
+    # find . -type d | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/"
+
+
+## 全ファイルのアクセス権表示
+    # cd /; ls -ltrR
+    # cd /; ls -ltrR > /tmp/`uname -n`_ls.log 2>&1
+
+
+## 文字コード変換
+> http://server-helper.doorblog.jp/archives/6824547.html
+
+    # cat -A aiueo.txt
+    aiueo$
+    kakikukeko$
+    $
+
+    
