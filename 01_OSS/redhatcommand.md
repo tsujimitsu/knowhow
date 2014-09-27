@@ -1,110 +1,110 @@
 # Linux commonly used command 
 ## Basic
-  pwd
+    pwd
 
-  cd
+    cd
 
-  ls -la ‰B‚µƒtƒ@ƒCƒ‹•\Ž¦
-  ls -ltr XV“úŽž‡
-  ls -lS —e—Ê‡
-  ls -lh —e—Ê‚ðhuman-readable‚É
-  ls -lR Ä‹A“I‚Éls -l
+    ls -la éš ã—ãƒ•ã‚¡ã‚¤ãƒ«è¡¨ç¤º
+    ls -ltr æ›´æ–°æ—¥æ™‚é †
+    ls -lS å®¹é‡é †
+    ls -lh å®¹é‡ã‚’human-readableã«
+    ls -lR å†å¸°çš„ã«ls -l
 
-  mkdir -p DIR
+    mkdir -p DIR
 
-  touch FILRNAME
+    touch FILRNAME
 
-  cp -p BEF AFT
-  cp -rp BEF_DIR AFT_DIR
+    cp -p BEF AFT
+    cp -rp BEF_DIR AFT_DIR
 
-  mv BEF AFT
-  mv A ../B
+    mv BEF AFT
+    mv A ../B
 
-  rm -rf DIR
+    rm -rf DIR
 
-  cat FILENAME
+    cat FILENAME
 
-  head -10 FILENAME ã‚©‚ç10s•\Ž¦
-  tail -10f FILENAME ‰º‚©‚ç10s•\Ž¦ŒãAƒtƒ@ƒCƒ‹Œp‘±ŠÄŽ‹
+    head -10 FILENAME ä¸Šã‹ã‚‰10è¡Œè¡¨ç¤º
+    tail -10f FILENAME ä¸‹ã‹ã‚‰10è¡Œè¡¨ç¤ºå¾Œã€ãƒ•ã‚¡ã‚¤ãƒ«ç¶™ç¶šç›£è¦–
 
-  more FILENAME
+    more FILENAME
 
-  grep -i "KEYWORD" FILENAME •¶Žš‚Ì‘å¬ŠÖŒW‚È‚­ˆø‚Á‚©‚¯‚é
+    grep -i "KEYWORD" FILENAME æ–‡å­—ã®å¤§å°é–¢ä¿‚ãªãå¼•ã£ã‹ã‘ã‚‹
 
-  wc -l FILENAME s”ƒJƒEƒ“ƒg
+    wc -l FILENAME è¡Œæ•°ã‚«ã‚¦ãƒ³ãƒˆ
 
-  chmod -R 777 DIR
-  chown -R root:root DIR
+    chmod -R 777 DIR
+    chown -R root:root DIR
 
-  df -h
-  df -i inodeŠm”F
-  free -m
-  top
-  ps
-  ps aux
-  pe -ef | grep PSNAME
-  du
-  du -sh
-  vmstat
+    df -h
+    df -i inodeç¢ºèª
+    free -m
+    top
+    ps
+    ps aux
+    pe -ef | grep PSNAME
+    du
+    du -sh
+    vmstat
   
-  lsof FILENAME ƒtƒ@ƒCƒ‹‚ðŠJ‚¢‚Ä‚¢‚éƒvƒƒZƒX‚ð“Á’è
-  lsof PORT ƒ|[ƒg‚ÅŠJ‚¢‚Ä‚¢‚éƒvƒƒZƒX‚ð“Á’è
-  lsof -u USERNAME ƒ†[ƒU‚ªŠJ‚¢‚Ä‚¢‚éƒvƒƒZƒX‚ð“Á’è
+    lsof FILENAME ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ã„ã¦ã„ã‚‹ãƒ—ãƒ­ã‚»ã‚¹ã‚’ç‰¹å®š
+    lsof PORT ãƒãƒ¼ãƒˆã§é–‹ã„ã¦ã„ã‚‹ãƒ—ãƒ­ã‚»ã‚¹ã‚’ç‰¹å®š
+    lsof -u USERNAME ãƒ¦ãƒ¼ã‚¶ãŒé–‹ã„ã¦ã„ã‚‹ãƒ—ãƒ­ã‚»ã‚¹ã‚’ç‰¹å®š
   
-  dmesg
+    dmesg
 
-  uname -n; id; date
+    uname -n; id; date
 
-  diff A A'
+    diff A A'
 
-  find PATH -name NAME
-  find PATH -size +100k(500M)
-  find /tmp/ -type d | wc -l ƒfƒBƒŒƒNƒgƒŠ”‚ðƒJƒEƒ“ƒg
-  find /tmp/ -type f | wc -l ƒtƒ@ƒCƒ‹”‚ðƒJƒEƒ“ƒg
+    find PATH -name NAME
+    find PATH -size +100k(500M)
+    find /tmp/ -type d | wc -l ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªæ•°ã‚’ã‚«ã‚¦ãƒ³ãƒˆ
+    find /tmp/ -type f | wc -l ãƒ•ã‚¡ã‚¤ãƒ«æ•°ã‚’ã‚«ã‚¦ãƒ³ãƒˆ
 
-  ulimit -a
-  ulimit -u
+    ulimit -a
+    ulimit -u
 
-  uptime wƒRƒ}ƒ“ƒh‚Å“à—e‚ª•ïŠÜ‚³‚ê‚é
-  w ‹N“®ŽžŠÔ/‹N“®ŽžŠÔ‚©‚ç‚ÌŒo‰ßŽžŠÔ/ƒƒOƒCƒ“ƒ†[ƒU/ƒ[ƒhƒAƒxƒŒ[ƒW/ƒƒOƒCƒ“ƒ†[ƒUî•ñ
-  last ƒƒOƒCƒ“î•ñ
+    uptime wã‚³ãƒžãƒ³ãƒ‰ã§å†…å®¹ãŒåŒ…å«ã•ã‚Œã‚‹
+    w èµ·å‹•æ™‚é–“/èµ·å‹•æ™‚é–“ã‹ã‚‰ã®çµŒéŽæ™‚é–“/ãƒ­ã‚°ã‚¤ãƒ³ãƒ¦ãƒ¼ã‚¶/ãƒ­ãƒ¼ãƒ‰ã‚¢ãƒ™ãƒ¬ãƒ¼ã‚¸/ãƒ­ã‚°ã‚¤ãƒ³ãƒ¦ãƒ¼ã‚¶æƒ…å ±
+    last ãƒ­ã‚°ã‚¤ãƒ³æƒ…å ±
 
-  gzip FILENAME gzˆ³kiŒ³ƒtƒ@ƒCƒ‹‚ÍŽc‚ç‚È‚¢j
-  gunzip FILENAME gz‰ð“€iŒ³ƒtƒ@ƒCƒ‹‚ÍŽc‚ç‚È‚¢j
+    gzip FILENAME gzåœ§ç¸®ï¼ˆå…ƒãƒ•ã‚¡ã‚¤ãƒ«ã¯æ®‹ã‚‰ãªã„ï¼‰
+    gunzip FILENAME gzè§£å‡ï¼ˆå…ƒãƒ•ã‚¡ã‚¤ãƒ«ã¯æ®‹ã‚‰ãªã„ï¼‰
 
-  tar zcvf ABC.tar.gz ABC.txt tarˆ³k
-  tar zxvf ABC.tar.gz ABC.txt tar‰ð“€
+    tar zcvf ABC.tar.gz ABC.txt taråœ§ç¸®
+    tar zxvf ABC.tar.gz ABC.txt tarè§£å‡
 
 
 ## Network
-  ping TARGET_IPADDRESS
-  ping TARGET_IPADDRESS -I SOURCE_IPADDRESS
-  ping TARGET_IPADDRESS -c 3 3‰ñŽÀs
-  traceroute TARGET_IPADDRESS
-  telnet TARGET_IPADDRESS PORT
-  netstat
-  netstat -na ‘S‚Ä‚ÌÚ‘±‚ð•\Ž¦
-  netstat -nl LISTENó‘Ô‚ÌÚ‘±‚ð•\Ž¦
+    ping TARGET_IPADDRESS
+    ping TARGET_IPADDRESS -I SOURCE_IPADDRESS
+    ping TARGET_IPADDRESS -c 3 3å›žå®Ÿè¡Œ
+    traceroute TARGET_IPADDRESS
+    telnet TARGET_IPADDRESS PORT
+    netstat
+    netstat -na å…¨ã¦ã®æŽ¥ç¶šã‚’è¡¨ç¤º
+    netstat -nl LISTENçŠ¶æ…‹ã®æŽ¥ç¶šã‚’è¡¨ç¤º
 
-  file FILENAME
+    file FILENAME
 
-  nkf -g 
-  nkf -wLu --overwrite shiftjis.txt •¶ŽšƒR[ƒh‚ðUTF-8‚ÉA‰üsƒR[ƒh‚ðLF‚É•ÏŠ·AŒ³‚Ìƒtƒ@ƒCƒ‹‚Éã‘‚«
+    nkf -g 
+    nkf -wLu --overwrite shiftjis.txt æ–‡å­—ã‚³ãƒ¼ãƒ‰ã‚’UTF-8ã«ã€æ”¹è¡Œã‚³ãƒ¼ãƒ‰ã‚’LFã«å¤‰æ›ã€å…ƒã®ãƒ•ã‚¡ã‚¤ãƒ«ã«ä¸Šæ›¸ã
 
-  crontab -l
-  crontab -e
+    crontab -l
+    crontab -e
 
 
-# viƒVƒ‡[ƒgƒJƒbƒg
-  gg ƒtƒ@ƒCƒ‹æ“ª
-  G ƒtƒ@ƒCƒ‹––”ö
+# viã‚·ãƒ§ãƒ¼ãƒˆã‚«ãƒƒãƒˆ
+    gg ãƒ•ã‚¡ã‚¤ãƒ«å…ˆé ­
+    G ãƒ•ã‚¡ã‚¤ãƒ«æœ«å°¾
 
-# vi“à•”ƒRƒ}ƒ“ƒh
-  :wq •ÒW“à—e‚ðã‘‚«‚µ‚Ä•Â‚¶‚é
-  :q! •ÒW“à—e‚ð”jŠü‚µ‚Ä•Â‚¶‚é
+# viå†…éƒ¨ã‚³ãƒžãƒ³ãƒ‰
+    :wq ç·¨é›†å†…å®¹ã‚’ä¸Šæ›¸ãã—ã¦é–‰ã˜ã‚‹
+    :q! ç·¨é›†å†…å®¹ã‚’ç ´æ£„ã—ã¦é–‰ã˜ã‚‹
 
-  :/ ƒJ[ƒ\ƒ‹‚©‚çƒtƒ@ƒCƒ‹––”ö‚ÖŒü‚¯‚ÄŒŸõ
-  :? ƒJ[ƒ\ƒ‹‚©‚çƒtƒ@ƒCƒ‹æ“ª‚ÖŒü‚¯‚ÄŒŸõ
+    :/ ã‚«ãƒ¼ã‚½ãƒ«ã‹ã‚‰ãƒ•ã‚¡ã‚¤ãƒ«æœ«å°¾ã¸å‘ã‘ã¦æ¤œç´¢
+    :? ã‚«ãƒ¼ã‚½ãƒ«ã‹ã‚‰ãƒ•ã‚¡ã‚¤ãƒ«å…ˆé ­ã¸å‘ã‘ã¦æ¤œç´¢
 
-  :e ++enc=sjis SHIFT-JIS‚É•ÏŠ·
-  :e ++enc=euc-jp EUC-JP‚É•ÏŠ·
+    :e ++enc=sjis SHIFT-JISã«å¤‰æ›
+    :e ++enc=euc-jp EUC-JPã«å¤‰æ›

@@ -1,10 +1,10 @@
 http://d.hatena.ne.jp/bluepapa32/20101108/1289187846
 
-‡@Webƒ}ƒl[ƒWƒƒ[ã
-ƒZƒLƒ…ƒŠƒeƒBƒOƒ‹[ƒv‚ÉTCP/20022‚ğ’Ç‰Á
-@ËSSHÚ‘±‚Í22”Ôƒ|[ƒg‚ğg‚í‚È‚¢
+â‘ Webãƒãƒãƒ¼ã‚¸ãƒ£ãƒ¼ä¸Š
+ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ã‚°ãƒ«ãƒ¼ãƒ—ã«TCP/20022ã‚’è¿½åŠ 
+ã€€â‡’SSHæ¥ç¶šã¯22ç•ªãƒãƒ¼ãƒˆã‚’ä½¿ã‚ãªã„
 
-‡AƒT[ƒoã
+â‘¡ã‚µãƒ¼ãƒä¸Š
 
 uname -n; id
 date
@@ -26,8 +26,8 @@ PATH=$PATH:$HOME/bin
 
 export PATH
 
-šLANG=ja_JP.UTF8
-šexport LANG
+â˜…LANG=ja_JP.UTF8
+â˜…export LANG
 
 cat ~/.bash_profile
 
@@ -52,8 +52,8 @@ mv /root/.ssh/authorized_keys /home/tsujimitsu/.ssh/
 
 service iptables status
 vi /etc/sysconfig/iptables
- TCP/20022‚ğ’Ç‰Á
- TCP/22‚ğíœ
+ TCP/20022ã‚’è¿½åŠ 
+ TCP/22ã‚’å‰Šé™¤
 
 service iptables restart
 
