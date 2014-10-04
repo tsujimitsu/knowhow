@@ -32,10 +32,12 @@
     grep -i "KEYWORD" FILENAME 文字の大小関係なく引っかける
 
     wc -l FILENAME 行数カウント
+    cut -b 1-10 指定したバイト数のみ表示
 
     chmod -R 777 DIR
     chown -R root:root DIR
-
+    sort
+    
     df -h
     df -i inode確認
     free -m
@@ -108,3 +110,5 @@
 
     :e ++enc=sjis SHIFT-JISに変換
     :e ++enc=euc-jp EUC-JPに変換
+    
+    :set nowrap 折り返ししない
